@@ -1,0 +1,136 @@
+body { 
+	margin: 0; 
+	background: #ffffff; 
+	color: #000000; 
+	font-family: VT323;
+	font-size: 100%;
+	line-height: 1.5em;
+}
+
+:focus, :active {
+	outline: 0;
+}
+
+@font-face {
+	font-family: VT323;
+	src: url(fonts/VT323-Regular.ttf);
+	font-weight: normal;
+}
+
+header {
+	height: 80px;
+	background-color: #9dd6d6;
+}
+
+header h1 {
+	padding-top: 20px;
+	text-align: center;
+	font-family: VT323;
+	font-size: 2.5em;
+	line-height: 1em;
+}
+
+h1 {
+	font-family: VT323;
+	font-size: 4.5em;
+	line-height: 1.5em;
+}
+
+.header {
+	background: url(../images/logo_clouds.png);
+	background-repeat: no-repeat;
+	background-position: 0px -20px;
+	width: 960px;
+	margin: 0px auto;
+	height: 100px;
+}
+
+#container { 
+	margin: auto auto; 
+	text-align: center;
+}
+
+#instructions { 
+	position: absolute; 
+	display: block; 
+	bottom: 0px; 
+	width: 100%;
+}
+
+#instructions p { 
+	margin: 0 0 5px; 
+	padding: 0;
+}
+
+
+#form {
+	padding-top: 25px;
+}
+
+svg { 
+	overflow: hidden; 
+	display: block; 
+	height: 85%; 
+	position: absolute; 
+	top: 100px; 
+	width: 100%; 
+	min-height: 500px; 
+	min-width: 500px; 
+	fill: #ffffff; 
+	font: 14px VT323; 
+}
+
+.no-cursor {
+	cursor: none;
+}
+
+#screenWelcome text { 
+	font-size: 20px; 
+	fill: #000000; 
+}
+#screenWelcome #title1 { 
+	font: 130px VT323; 
+	fill: #000000; 
+}
+#screenWelcome #title2 { 
+	font: 79px VT323; 
+	fill: #000000; 
+}
+text#more { 
+	font: 28px VT323; 
+	cursor: pointer;
+	fill: #000000; 
+}
+text#more:hover { 
+	font: 28px VT323; 
+	cursor: pointer;
+	fill: #9dd6d6; 
+}
+.life, .player, .shield, .ship { 
+	fill: #0d7ec3;
+}
+.ufo .a { 
+	fill: #ed2224;
+}
+.ufo .b { 
+	fill: #ffaa19;
+}
+.ufo .c { 
+	fill: #2fb44a;
+}
+#textScore, #textLives, .laser {
+	fill: #000000;
+}
+
+.closed .anim1, .open .anim2 { 
+	display: none;
+}
+.open .anim1, .closed .anim2 { 
+	display: inherit;
+}
+
+#end {
+	display: none;
+	width: 960px;
+	margin: 20px auto;
+}
